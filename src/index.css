@@ -7,17 +7,17 @@
   color: #1a1a1a;
   background-color: #ffffff;
   --bg-main: #ffffff;
-  --bg-soft: #f5f5f5;
-  --surface: #fafafa;
-  --surface-2: #f0f0f0;
-  --border: #e0e0e0;
+  --bg-soft: #faf8fa;
+  --surface: #fefcfd;
+  --surface-2: #f9f1f6;
+  --border: #e8dde4;
   --text-main: #1a1a1a;
   --text-soft: #666666;
-  --accent: #2563eb;
-  --accent-soft: #dbeafe;
+  --accent: #db2777;
+  --accent-soft: #fce7f3;
   --danger: #dc2626;
   --danger-soft: #fee2e2;
-  --focus-ring: rgba(37, 99, 235, 0.1);
+  --focus-ring: rgba(219, 39, 119, 0.1);
 }
 
 * {
@@ -60,18 +60,18 @@ body {
 
 .eyebrow {
   margin: 0;
-  color: #4b7ac9;
+  color: #c2185b;
   font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  text-shadow: 0 0 10px rgba(75, 122, 201, 0.1);
+  text-shadow: 0 0 10px rgba(219, 39, 119, 0.1);
 }
 
 .subtitle {
   margin: 0.5rem 0 1rem;
   color: var(--text-soft);
-  border-left: 2px solid rgba(75, 122, 201, 0.3);
+  border-left: 2px solid rgba(219, 39, 119, 0.3);
   padding-left: 0.85rem;
   font-style: italic;
   min-height: 3.1rem;
@@ -144,10 +144,10 @@ button {
 }
 
 .addButton {
-  border: 1px solid #d0d0d0;
+  border: 1px solid #f0d0dd;
   border-radius: 12px;
-  background-color: #f0f0f0;
-  color: #2563eb;
+  background-color: #fce7f3;
+  color: #db2777;
   padding: 0.72rem 1rem;
   min-width: 76px;
   cursor: pointer;
@@ -156,7 +156,7 @@ button {
 
 .addButton:hover {
   filter: brightness(0.95);
-  box-shadow: 0 0 18px rgba(37, 99, 235, 0.2);
+  box-shadow: 0 0 18px rgba(219, 39, 119, 0.2);
 }
 
 .addButton:active {
@@ -207,7 +207,7 @@ button {
 
 .filterPill {
   border: 1px solid var(--border);
-  background-color: #f5f5f5;
+  background-color: #faf8fa;
   color: var(--text-soft);
   border-radius: 999px;
   padding: 0.35rem 0.68rem;
@@ -217,17 +217,17 @@ button {
 }
 
 .filterPill:hover {
-  border-color: #2563eb;
-  box-shadow: 0 0 12px rgba(37, 99, 235, 0.15);
+  border-color: #db2777;
+  box-shadow: 0 0 12px rgba(219, 39, 119, 0.15);
   transform: translateY(-1px);
 }
 
 .filterPill.active {
-  border-color: #2563eb;
-  background-color: #dbeafe;
-  color: #1e40af;
+  border-color: #db2777;
+  background-color: #fce7f3;
+  color: #a0185b;
   box-shadow:
-    0 0 14px rgba(37, 99, 235, 0.25),
+    0 0 14px rgba(219, 39, 119, 0.25),
     inset 0 0 0 1px rgba(255, 255, 255, 0.5);
 }
 
@@ -280,7 +280,7 @@ button {
   height: 1.1rem;
   margin: 0;
   border-radius: 999px;
-  border: 1.5px solid #2563eb;
+  border: 1.5px solid #db2777;
   background-color: transparent;
   display: grid;
   place-items: center;
@@ -307,12 +307,12 @@ button {
 }
 
 .taskLabel input[type="checkbox"]:checked {
-  border-color: #2563eb;
-  background-color: rgba(37, 99, 235, 0.1);
+  border-color: #db2777;
+  background-color: rgba(219, 39, 119, 0.1);
 }
 
 .taskLabel input[type="checkbox"]:checked::after {
-  background-color: #2563eb;
+  background-color: #db2777;
 }
 
 .taskLabel input[type="checkbox"]:active {
@@ -343,18 +343,18 @@ button {
 }
 
 .categoryChip {
-  background-color: #dbeafe;
-  color: #1e40af;
+  background-color: #fce7f3;
+  color: #a0185b;
 }
 
 .homeworkTagChip {
-  background-color: #f0e6ff;
-  color: #5b21b6;
+  background-color: #fde8f5;
+  color: #c2185b;
 }
 
 .dueChip {
-  background-color: #ccfbf1;
-  color: #0d6d52;
+  background-color: #f0e8f5;
+  color: #7c3a82;
 }
 
 .deleteButton {
@@ -377,10 +377,10 @@ button {
 }
 
 .addTagButton {
-  border: 1px solid #d0d0d0;
+  border: 1px solid #f0d0dd;
   border-radius: 12px;
-  background-color: #f0f0f0;
-  color: #2563eb;
+  background-color: #fce7f3;
+  color: #db2777;
   padding: 0.72rem 0.9rem;
   min-width: 86px;
   cursor: pointer;
@@ -388,8 +388,8 @@ button {
 }
 
 .addTagButton:hover {
-  border-color: #2563eb;
-  box-shadow: 0 0 14px rgba(37, 99, 235, 0.2);
+  border-color: #db2777;
+  box-shadow: 0 0 14px rgba(219, 39, 119, 0.2);
 }
 
 .customTagList {
@@ -400,17 +400,17 @@ button {
 }
 
 .customTagChip {
-  border: 1px solid #d0d0d0;
-  background-color: #f5f5f5;
-  color: #2563eb;
+  border: 1px solid #f0d0dd;
+  background-color: #fce7f3;
+  color: #db2777;
   border-radius: 999px;
   padding: 0.26rem 0.62rem;
   cursor: pointer;
 }
 
 .customTagChip:hover {
-  border-color: #2563eb;
-  box-shadow: 0 0 8px rgba(37, 99, 235, 0.15);
+  border-color: #db2777;
+  box-shadow: 0 0 8px rgba(219, 39, 119, 0.15);
 }
 
 .loadingScreen {
