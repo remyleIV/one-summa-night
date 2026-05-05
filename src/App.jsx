@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import introVideo from "./assets/intro.mp4";
+import bloomVideo from "./assets/lily-opening.mp4";
 
 const STORAGE_KEY = "student-friendly-tasks-v1";
 const HOMEWORK_TAGS_KEY = "student-friendly-homework-tags-v1";
@@ -66,7 +66,7 @@ const MOTIVATION_QUOTES = [
     song: "Always",
   },
 ];
-const BLOOM_VIDEO_SRC = introVideo;
+const BLOOM_VIDEO_SRC = bloomVideo;
 
 function readInitialTasks() {
   try {
