@@ -302,7 +302,7 @@ export default function App() {
       <section className="todoCard">
         <header className="header">
           <p className="eyebrow">perle&apos;s list</p>
-          <h1>Today&apos;s Learning Tasks</h1>
+          <h1>Today&apos;s Tasks</h1>
           <blockquote key={activeQuoteIndex} className="subtitle quoteTransition" aria-live="polite">
             &quot;{activeQuote.text}&quot; <span className="quoteSource">{activeQuoteSource}</span>
           </blockquote>
@@ -432,7 +432,7 @@ export default function App() {
 
         {tasks.length === 0 ? (
           <div className="emptyState">
-            <p>No tasks yet. Add your first one and get a quick win.</p>
+            <p>no tasks yet, add your first one and have a quick win today! :^)</p>
           </div>
         ) : filteredTasks.length === 0 ? (
           <div className="emptyState">
@@ -477,6 +477,7 @@ export default function App() {
           </ul>
         )}
       </section>
+      <div className="motivationalNote">Fighting, Rie! I'm always rooting for you</div>
     </main>
   );
 }
