@@ -415,7 +415,7 @@ button {
 
 .loadingScreen {
   min-height: 100vh;
-  background: #000000;
+  background: #ffffff;
   display: grid;
   place-items: center;
   padding: 0;

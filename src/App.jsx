@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import bloomVideo from "./assets/intro.mp4.mp4";
+import bloomVideo from "./assets/intro-new.mp4";
 
 const STORAGE_KEY = "student-friendly-tasks-v1";
 const HOMEWORK_TAGS_KEY = "student-friendly-homework-tags-v1";
@@ -64,6 +64,21 @@ const MOTIVATION_QUOTES = [
     text: "Baby, this love I'll never let it die.",
     artist: "Daniel Caesar",
     song: "Always",
+  },
+  {
+    text: "And I'll be here, 'cause we both know how it goes.",
+    artist: "Daniel Caesar",
+    song: "Always",
+  },
+  {
+    text: "You are my favorite everything.",
+    artist: "LANY",
+    song: "Pink Skies",
+  },
+  {
+    text: "I will always love you.",
+    artist: "Frank Ocean",
+    song: "Godspeed",
   },
 ];
 const BLOOM_VIDEO_SRC = bloomVideo;
