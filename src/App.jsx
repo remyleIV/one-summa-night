@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import bloomVideo from "./assets/lily-opening.mp4";
+import bloomVideo from "./assets/intro.mp4.mp4";
 
 const STORAGE_KEY = "student-friendly-tasks-v1";
 const HOMEWORK_TAGS_KEY = "student-friendly-homework-tags-v1";
